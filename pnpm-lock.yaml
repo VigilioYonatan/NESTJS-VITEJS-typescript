@@ -15,8 +15,8 @@ dependencies:
     specifier: ^10.0.0
     version: 10.0.0(@nestjs/common@10.0.0)(@nestjs/core@10.0.0)
   '@vigilio/express-core':
-    specifier: ^1.2.3
-    version: 1.2.3(express@4.18.2)
+    specifier: ^1.2.4
+    version: 1.2.4(express@4.18.2)
   dotenv:
     specifier: ^16.3.1
     version: 16.3.1
@@ -1579,8 +1579,8 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vigilio/express-core@1.2.3(express@4.18.2):
-    resolution: {integrity: sha512-X0kcpUVXsHSoCyijs9mknhaY2Ir/GmGfm6/uf/vxr9CJ26YmCz+Cgp3WDMPCYB5AlW1dkbLNDOZz6WEBjoI1wQ==}
+  /@vigilio/express-core@1.2.4(express@4.18.2):
+    resolution: {integrity: sha512-TSjdIAa3n5xTUzG3VIo8O464FWFOHtMZV0tfnbBkuLQ5alaCuGvryq791z1SBiQ5OPRqglLehhtxhROXKqvmSg==}
     hasBin: true
     peerDependencies:
       express: '>=4'
