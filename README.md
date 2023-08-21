@@ -40,6 +40,10 @@ $ pnpm install
 $ pnpm run start:dev
 $ pnpm run start:serve
 
+# build
+$ pnpm run build:dev
+$ pnpm run build:serve
+
 # production mode
 $ pnpm run start:prod
 ```
