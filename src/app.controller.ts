@@ -8,6 +8,7 @@ export class AppController {
 
   @Get()
   getHello(@Res() res: Response) {
+    // index is the resources/views/index.pug file
     return res.render('index');
   }
 }

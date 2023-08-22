@@ -9,7 +9,7 @@ async function bootstrap() {
   app.use(client({ file: 'ts/index.ts' }));
   app.useStaticAssets(join(__dirname, '..', 'public'));
   app.setBaseViewsDir(join(__dirname, '..', 'resources', 'views'));
-  app.setViewEngine('pug'); // you can use pug,ejs ,etc
+  app.setViewEngine('pug'); // you can use pug,ejs,handlebars,etc
 
   await app.listen(4000);
 }
